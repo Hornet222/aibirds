@@ -16,6 +16,10 @@ PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join(PATH_IMAGES, 
 BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join(PATH_IMAGES, 'base.png')))
 BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join(PATH_IMAGES, 'bg.png')))
 
+"""
+1st Attempt at programming an AI game
+"""
+
 class Bird:
     IMGS = BIRD_IMGS
     MAX_ROTATION = 25
